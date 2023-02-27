@@ -1,0 +1,19 @@
+2023-02-27T18:27:22.315+05:30  INFO 18824 --- [restartedMain] c.nv.doctorapp.MyDoctorAppApplication    : Starting MyDoctorAppApplication using Java 17.0.5 with PID 18824 (C:\Sprint1App\MyDoctorApp\bin\main started by aditishe in C:\Sprint1App\MyDoctorApp)
+2023-02-27T18:27:22.329+05:30  INFO 18824 --- [restartedMain] c.nv.doctorapp.MyDoctorAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-27T18:27:24.190+05:30  INFO 18824 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-27T18:27:24.192+05:30  INFO 18824 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-27T18:27:24.272+05:30  INFO 18824 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-27T18:27:24.502+05:30  INFO 18824 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-27T18:27:24.580+05:30  INFO 18824 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-27T18:27:24.854+05:30  WARN 18824 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-27T18:27:25.005+05:30  INFO 18824 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-27T18:27:25.493+05:30  INFO 18824 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d3bb96b
+2023-02-27T18:27:25.495+05:30  INFO 18824 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-27T18:27:25.560+05:30  INFO 18824 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-27T18:27:26.692+05:30  INFO 18824 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-27T18:27:26.720+05:30  INFO 18824 --- [restartedMain] c.n.d.c.a.AppointmentRestController      :  Doctor Rest Controller Called
+2023-02-27T18:27:27.015+05:30  WARN 18824 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.nv.doctorapp.repository.appointment.AppointmentRepository
+2023-02-27T18:27:27.116+05:30  INFO 18824 --- [restartedMain] c.n.d.c.patient.PatientRestController    :  Patient Rest Controller Called)
+2023-02-27T18:27:27.183+05:30  WARN 18824 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-27T18:27:27.657+05:30  INFO 18824 --- [restartedMain] c.nv.doctorapp.MyDoctorAppApplication    : Started MyDoctorAppApplication in 5.898 seconds (process running for 6.554)
+2023-02-27T18:27:32.616+05:30  INFO 18824 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
